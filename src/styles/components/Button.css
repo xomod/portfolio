@@ -4,12 +4,12 @@
      text-transform: uppercase;
      margin: 10px;
      padding: 8px 20px;
+     display: inline-block;
     }
 
 .button.contained {
     background: #FF0000;
     color: #FFFFFF;
-    display: inline-block;
     box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0,0,0,.12);
 }
 
@@ -18,7 +18,6 @@
 }
 
 .button.outlined {
-    display: inline-block;
     color: red;
     border-style:solid;
     border-color:red;
@@ -30,7 +29,6 @@
 }
 
 .button.text {
-    display: inline-block;
     color: red;
 }
 
