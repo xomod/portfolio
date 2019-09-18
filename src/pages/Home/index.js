@@ -10,7 +10,7 @@ const Home = () => {
 
     return <div>
         <h1>Home</h1>
-        <Button onClick={handleClick}>Click</Button>
+        <Button onClick={handleClick}>BUTTON</Button>
         {toggled === true ? <p>You can see mee</p> : null}
     </div>
 }
