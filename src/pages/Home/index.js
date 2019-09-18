@@ -10,9 +10,12 @@ const Home = () => {
 
     return <div>
         <h1>Home</h1>
-        <Button onClick={handleClick}>BUTTON</Button>
+        <Button variant="contained" onClick={handleClick}>Button</Button>
+        
+        <Button variant="outlined" onClick={handleClick}>Button</Button>
         {toggled === true ? <p>You can see mee</p> : null}
     </div>
+    
 }
 
 export default Home;

@@ -1,12 +1,34 @@
 .button {
+     position: relative; 
+     border-radius: 5px;
+     text-transform: uppercase;
+    }
+
+.button.contained {
     background: #FF0000;
     color: #FFFFFF;
     display: inline-block;
     padding: 8px 20px;
-    border-radius: 5px;
+    margin: 10px;
     box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0,0,0,.12);
 }
 
-.button:hover{
+.button.contained:hover{
     box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0,0,0,.12);
+}
+
+
+.button.outlined {
+    padding: 8px 20px;
+    margin: 10px;
+    display: inline-block;
+    color: red;
+    border-style:solid;
+    border-color:red;
+    border-width: 1px;
+}
+
+.button.outlined:hover {
+    background: rgba(215, 44, 44, 0.1);
+    
 }
