@@ -19,7 +19,6 @@ jobs:
         with:
           node-version: 12
       - run: npm install
-      - run: npm test a
       - run: npm build
           
   publish-docs:
