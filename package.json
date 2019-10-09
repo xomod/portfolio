@@ -9,7 +9,7 @@
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-ink": "^6.4.0",
-    "react-jss": "^10.0.0-alpha.25",
+    "react-jss": "^10.0.0",
     "react-littera": "^1.2.0",
     "react-router-dom": "^5.0.1",
     "react-scripts": "3.1.1"

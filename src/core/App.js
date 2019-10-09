@@ -5,6 +5,7 @@ import Error from '../pages/Error';
 import LitteraProvider from "react-littera";
 import { ThemeProvider } from 'react-jss'
 import theme from "../theme.js"
+import Navbar from "../common/NavBar/"
 
 function App() {
   const [language, setLanguage] = React.useState("en_US");
@@ -13,6 +14,7 @@ function App() {
     <div className="App">
       <ThemeProvider theme={theme}>
         <LitteraProvider language={language} setLanguage={setLanguage}>
+          <Navbar></Navbar>
           <Router>
             <Switch>
               <Route exact path="/" component={Home} />
@@ -24,5 +26,6 @@ function App() {
     </div>
   );
 }
+
 
 export default App;
